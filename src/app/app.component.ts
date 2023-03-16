@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chrome-extension';
+
+  showMsg(msg: String) {
+    return msg;
+  }
 }
